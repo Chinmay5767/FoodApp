@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/dining_table_png_41437"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#63FFFFFF"
+        android:foregroundTint="#45FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="#28FFFFFF"
+            android:foregroundTint="#0F972525"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="169dp"
+                android:backgroundTint="#EEEEEBF3"
+                android:contentDescription="@string/todo"
+                android:foregroundTint="#52FFFFFF"
+                android:padding="8dp"
+                android:tint="#fff"
+                app:srcCompat="@drawable/pngtreeflat_icon_with_cutlery_4862848"
+                app:tint="#0020C65C"
+                tools:ignore="UseAppTint" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="184dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="serif"
+                android:padding="8dp"
+                android:text="@string/cafe_house"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="55sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/btnlogin"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/btn_gradient"
+                android:foregroundTint="#2CFFFFFF"
+                android:hapticFeedbackEnabled="false"
+                android:padding="8dp"
+                android:text="login"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:iconTint="@color/black"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+            <Button
+                android:id="@+id/btnsignup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_gradient"
+                android:foregroundTint="#2CFFFFFF"
+                android:hapticFeedbackEnabled="false"
+                android:padding="8dp"
+                android:text="register"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
